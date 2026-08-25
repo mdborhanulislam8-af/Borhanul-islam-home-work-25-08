@@ -1,0 +1,53 @@
+.menu ul{
+   list-style: none;
+
+}
+.menu ul li{
+   display: inline-block;
+}
+.menu ul li a{
+   text-decoration: none;
+   padding: 5px 10px;
+   display:inline-block;
+   color: #fff;
+   background-color: orange;
+   border-radius: 20px;
+   border-right: 1px solid #fff;
+   margin-right: 15px;
+}
+.menu ul li a:hover{
+   background-color: #000;
+   color:#fff;
+}
+header{
+   background-color: #dedae2;
+
+   color:  black;
+   padding: 10px 5px 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+footer{
+   background-color: #dedae2;
+   color:  black;
+   padding: 10px ;
+   text-align: center;
+ margin-top: 50px;
+}
+.contact-info {
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #afc2b3;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-info {
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: #aab49a;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

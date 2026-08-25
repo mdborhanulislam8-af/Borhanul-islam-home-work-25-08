@@ -1,0 +1,78 @@
+ 
+.menu ul{
+   list-style: none;
+
+}
+.menu ul li{
+   display: inline-block;
+}
+.menu ul li a{
+   text-decoration: none;
+   padding: 5px 10px;
+   display:inline-block;
+   color: #fff;
+   background-color: orange;
+   border-radius: 20px;
+   border-right: 1px solid #fff;
+   margin-right: 15px;
+}
+.menu ul li a:hover{
+   background-color: #000;
+   color:#fff;
+}
+header{
+   background-color: #dedae2;
+
+   color:  black;
+   padding: 10px 5px 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+footer{
+   background-color: #dedae2;
+   color:  black;
+   padding: 10px ;
+   text-align: center;
+ margin-top: 50px;
+}
+.banner {
+    background-image: url( "./images.jfif");
+   background-size: cover;
+   background-position: center;
+   height: 200px;
+   width: 100%;
+   margin-top: 50px;
+}
+table{
+   margin:  50px auto;
+   width: 80%;
+   border-collapse: collapse;
+   border: 5px solid #000;
+   background-color: #f3f3f3;
+}
+th, td{
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #000;
+}
+caption{
+   caption-side: top;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.gender-form{
+   margin: 50px auto;
+   width: 50%;
+   padding: 20px;
+   border: 2px solid #000;
+   background-color: #f3f3f3;
+}
+.place-form{
+   margin: 50px auto;
+   width: 50%;
+   padding: 20px;
+   border: 2px solid #000;
+   background-color: #f3f3f3;
+}
